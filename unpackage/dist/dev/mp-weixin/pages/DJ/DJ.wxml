@@ -1,0 +1,1 @@
+<view class="dj-wrapper"><navbar vue-id="4ee7db40-1" isSearch="{{false}}" bind:__l="__l"></navbar><view class="background" style="{{(setbg)}}"></view><view class="body"><text class="text">请在网易云音乐中查看</text></view></view>

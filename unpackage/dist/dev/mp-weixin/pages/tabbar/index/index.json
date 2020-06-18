@@ -1,0 +1,9 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "banner": "/components/banner/banner",
+    "classify": "/pages/tabbar/index/children/home_classify",
+    "home-list": "/pages/tabbar/index/children/HomeList"
+  }
+}

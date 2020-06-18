@@ -1,0 +1,1 @@
+.search-history{width:100%;min-height:100rpx}.search-history .search-title{font-size:40rpx;font-weight:700;white-space:wrap}.search-history .search-body{min-height:200rpx}.search-history .search-body .list-item{display:inline-block;margin:10rpx;padding:10rpx;-webkit-flex-shrink:0;flex-shrink:0;border:1px solid #999;border-radius:10rpx}

@@ -1,0 +1,1 @@
+.hot-search{width:100%;margin-top:10rpx}.hot-search .hot-title{font-size:40rpx;font-weight:700}.hot-search .hot-body{min-height:200rpx;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-flex-wrap:wrap;flex-wrap:wrap}.hot-search .hot-body .list-item{margin:10rpx;padding:10rpx;-webkit-flex-shrink:0;flex-shrink:0;border:1px solid #999;border-radius:10rpx}

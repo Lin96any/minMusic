@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "related": "/pages/musicPlay/children/related",
+    "comments": "/pages/musicPlay/children/comments"
+  }
+}

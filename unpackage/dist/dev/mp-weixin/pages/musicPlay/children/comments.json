@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tips": "/components/tips/tips"
+  },
+  "component": true
+}

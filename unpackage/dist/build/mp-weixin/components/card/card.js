@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/card/card"],{"1fbc":function(t,a,e){"use strict";(function(t){Object.defineProperty(a,"__esModule",{value:!0}),a.default=void 0;var e={props:{cardTitle:{type:String,default:"卡片标题"},modse:{type:String,default:"song"},cardList:{type:Array,default:function(){return[]}}},methods:{tapClick:function(t,a){var e=t.id,n=t.name,i=t.picUrl,c=t.song,r=null;if(c&&c.album){var u=c.album,s=u.id,o=u.name,l=c.album.artists[0],d=l.id,f=l.name;r={musicId:e,musicName:n,alId:s,alName:o,alpicUrl:i,arId:d,arName:f}}else r={musicId:e,musicName:n,alpicUrl:i};this.mode=a,this.giveTo(a,r)},giveTo:function(a,e){switch(a){case"newmusic":this.$store.commit("SET-MUSICITEM",e),t.navigateTo({url:"/pages/musicPlay/musicPlay"});break;case"dj":this.$store.commit("SET-DJ",e),t.navigateTo({url:"/pages/DJ/DJ"});break;case"song":this.$store.commit("SET-PLAYLIST",e),t.navigateTo({url:"/pages/playList/playList"});break}}},data:function(){return{}}};a.default=e}).call(this,e("543d")["default"])},2458:function(t,a,e){},"26bd":function(t,a,e){"use strict";e.r(a);var n=e("1fbc"),i=e.n(n);for(var c in n)"default"!==c&&function(t){e.d(a,t,(function(){return n[t]}))}(c);a["default"]=i.a},"29cc":function(t,a,e){"use strict";var n,i=function(){var t=this,a=t.$createElement;t._self._c},c=[];e.d(a,"b",(function(){return i})),e.d(a,"c",(function(){return c})),e.d(a,"a",(function(){return n}))},a45b:function(t,a,e){"use strict";var n=e("2458"),i=e.n(n);i.a},b700:function(t,a,e){"use strict";e.r(a);var n=e("29cc"),i=e("26bd");for(var c in i)"default"!==c&&function(t){e.d(a,t,(function(){return i[t]}))}(c);e("a45b");var r,u=e("f0c5"),s=Object(u["a"])(i["default"],n["b"],n["c"],!1,null,"f9b9d3ba",null,!1,n["a"],r);a["default"]=s.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/card/card-create-component',
+    {
+        'components/card/card-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("b700"))
+        })
+    },
+    [['components/card/card-create-component']]
+]);

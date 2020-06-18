@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "list-card": "/pages/tabbar/index/children/listcard"
+  }
+}

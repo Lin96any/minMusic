@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "A-Lin",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "tips": "/components/tips/tips",
+    "commv": "/pages/tabbar/mv/children/comMv",
+    "wangyi": "/pages/tabbar/mv/children/wangyi"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "card": "/components/card/card",
+    "car-list": "/components/car-list/car-list",
+    "music-list": "/components/music-list/music-list",
+    "tips": "/components/tips/tips",
+    "loadding": "/components/loadding/loadding"
+  },
+  "component": true
+}

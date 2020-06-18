@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/tabbar/index/index",
+    "pages/tabbar/mv/mv",
+    "pages/musicPlay/musicPlay",
+    "pages/DJ/DJ",
+    "pages/playList/playList",
+    "pages/PlayVideo/PlayVideo",
+    "pages/search/search"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#FF2C2C",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/index/index",
+        "text": "首页",
+        "iconPath": "./static/image/tabbar/sanjiaoxing.png",
+        "selectedIconPath": "static/image/tabbar/sanjiaoxing_active.png"
+      },
+      {
+        "pagePath": "pages/tabbar/mv/mv",
+        "text": "Mv",
+        "iconPath": "static/image/tabbar/tuoyuanxing.png",
+        "selectedIconPath": "static/image/tabbar/tuoyuanxing_active.png"
+      }
+    ]
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "permission": {},
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "disableScroll": true,
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "search-history": "/pages/search/children/search-history",
+    "hot-search": "/pages/search/children/hot-search"
+  }
+}

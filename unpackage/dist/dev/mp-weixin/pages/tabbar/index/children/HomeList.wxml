@@ -1,0 +1,1 @@
+<view class="swiper_wrappers"><list-card vue-id="1454a72e-1" mode="{{modeData}}" isShows="{{isShows}}" listData="{{listData[tapcurrent]}}" rankings="{{rankings}}" bind:__l="__l"></list-card></view>

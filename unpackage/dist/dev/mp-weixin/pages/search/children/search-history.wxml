@@ -1,0 +1,1 @@
+<view class="search-history"><view class="search-title">热门搜索</view><view class="search-body"><block wx:for="{{History}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view data-event-opts="{{[['tap',[['tapItem',['$0'],[[['History','',index]]]]]]]}}" class="list-item" bindtap="__e"><text>{{item.name}}</text></view></block></block></view></view>

@@ -1,0 +1,83 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/tabbar/index/index",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/tabbar/mv/mv",
+			"style": {
+				"navigationBarTitleText":"A-Lin",
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+		}
+	   ,{
+            "path" : "pages/musicPlay/musicPlay",
+            "style" : {
+							"navigationStyle":"custom",
+							"disableScroll":true,
+							"navigationBarTextStyle":"white"
+						}
+        }
+        ,{
+            "path" : "pages/DJ/DJ",
+            "style" : {
+							"navigationStyle":"custom",
+							"disableScroll":true,
+							"navigationBarTextStyle":"white"
+						}
+        }
+        ,{
+            "path" : "pages/playList/playList",
+            "style" : {
+							"navigationStyle":"custom",
+							"disableScroll":true,
+							"navigationBarTextStyle":"white"
+						}
+        }
+        ,{
+            "path" : "pages/PlayVideo/PlayVideo",
+            "style" : {
+							"navigationStyle":"custom",
+							"disableScroll":true,
+							"navigationBarTextStyle":"black"
+						}
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" : {
+							"navigationStyle":"custom",
+							"disableScroll":true,
+							"navigationBarTextStyle":"black"
+						}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#333333",
+		"selectedColor":"#FF2C2C",
+		"backgroundColor":"#FFFFFF",
+		"borderStyle":"black",
+		"list":[
+			{
+				"pagePath":"pages/tabbar/index/index",
+				"text":"首页",
+				"iconPath":"./static/image/tabbar/sanjiaoxing.png",
+				"selectedIconPath":"static/image/tabbar/sanjiaoxing_active.png"
+			},
+			{
+				"pagePath":"pages/tabbar/mv/mv",
+				"text":"Mv",
+				"iconPath":"static/image/tabbar/tuoyuanxing.png",
+				"selectedIconPath":"static/image/tabbar/tuoyuanxing_active.png"
+			}
+		]
+	}
+}

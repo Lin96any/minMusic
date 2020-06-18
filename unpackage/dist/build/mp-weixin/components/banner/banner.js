@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/banner/banner"],{"0097":function(n,t,e){"use strict";var r,u=function(){var n=this,t=n.$createElement;n._self._c},a=[];e.d(t,"b",(function(){return u})),e.d(t,"c",(function(){return a})),e.d(t,"a",(function(){return r}))},1037:function(n,t,e){"use strict";e.r(t);var r=e("db87"),u=e.n(r);for(var a in r)"default"!==a&&function(n){e.d(t,n,(function(){return r[n]}))}(a);t["default"]=u.a},"5e9d":function(n,t,e){},c187:function(n,t,e){"use strict";e.r(t);var r=e("0097"),u=e("1037");for(var a in u)"default"!==a&&function(n){e.d(t,n,(function(){return u[n]}))}(a);e("d398");var o,c=e("f0c5"),i=Object(c["a"])(u["default"],r["b"],r["c"],!1,null,"7f4d324a",null,!1,r["a"],o);t["default"]=i.exports},d398:function(n,t,e){"use strict";var r=e("5e9d"),u=e.n(r);u.a},db87:function(n,t,e){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var r=u(e("4795"));function u(n){return n&&n.__esModule?n:{default:n}}function a(n,t,e,r,u,a,o){try{var c=n[a](o),i=c.value}catch(f){return void e(f)}c.done?t(i):Promise.resolve(i).then(r,u)}function o(n){return function(){var t=this,e=arguments;return new Promise((function(r,u){var o=n.apply(t,e);function c(n){a(o,r,u,c,i,"next",n)}function i(n){a(o,r,u,c,i,"throw",n)}c(void 0)}))}}var c={props:{SystemCode:{type:Number,default:2}},data:function(){return{bannerlist:[]}},created:function(){this.getbanner()},methods:{getbanner:function(){var n=this;return o(r.default.mark((function t(){var e,u;return r.default.wrap((function(t){while(1)switch(t.prev=t.next){case 0:return t.next=2,n.$api.banner(n.SystemCode);case 2:e=t.sent,u=e.banners,n.bannerlist=u;case 5:case"end":return t.stop()}}),t)})))()}}};t.default=c}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/banner/banner-create-component',
+    {
+        'components/banner/banner-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("c187"))
+        })
+    },
+    [['components/banner/banner-create-component']]
+]);
